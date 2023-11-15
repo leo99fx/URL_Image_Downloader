@@ -1,3 +1,6 @@
+Certainly! Here's the README in a single block that you can copy and paste directly into GitHub:
+
+```markdown
 # Image Downloader and List Images
 
 ## Description
@@ -11,30 +14,38 @@ This Java project consists of two programs: ImageDownloader and ListImages. The 
 
 ```bash
 java ImageDownloader.ImageDownloader path/url.txt imagesPath
+```
 
+### Functionality
+- Downloads images from URLs listed in the specified file.
+- Saves the downloaded images in the specified folder.
 
-Functionality
-Downloads images from URLs listed in the specified file.
-Saves the downloaded images in the specified folder.
+### Example
+```bash
+java ImageDownloader.ImageDownloader path/url.txt imagesPath
+```
 
-Example
-	java ImageDownloader.ImageDownloader path/url.txt imagesPath
+## ListImages
 
-ListImages
-Usage
-Ensure that images are stored in the specified folder (imagesPath).
-Run the ListImages program to list the names of JPG files in the folder.
+### Usage
+1. Ensure that images are stored in the specified folder (`imagesPath`).
+2. Run the `ListImages` program to list the names of JPG files in the folder.
+
+```bash
 java ImageDownloader.ListImages
+```
 
-Functionality
-Lists the names of JPG files in the specified folder.
-Saves the list to a text file (imagesList.txt).
+### Functionality
+- Lists the names of JPG files in the specified folder.
+- Saves the list to a text file (`imagesList.txt`).
+
+### Example
+```bash
 java ImageDownloader.ListImages
+```
 
-Dependencies
-Java SE Development Kit (JDK) 8 or later
+## Dependencies
+- Java SE Development Kit (JDK) 8 or later
 
-
-
-Author
+## Author
 Leonel Julian Fernandes
