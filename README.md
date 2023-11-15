@@ -1,5 +1,3 @@
-Certainly! Here's the README in a single block that you can copy and paste directly into GitHub:
-
 ```markdown
 # Image Downloader and List Images
 
